@@ -1,12 +1,12 @@
-aboutMe:
-    path: aboutMe
-    controller: App\Controller\LearningController::aboutMe
-
-showMyName:
-    path: /
-    controller: App\Controller\LearningController::showMyName
-
-changeMyName:
-    path: changeMyName
-    controller: App\Controller\LearningController::changeMyName
-    methods: POST
+#aboutMe:
+#    path: aboutMe
+#    controller: App\Controller\LearningController::aboutMe
+#
+#showMyName:
+#    path: /
+#    controller: App\Controller\LearningController::showMyName
+#
+#changeMyName:
+#    path: changeMyName
+#    controller: App\Controller\LearningController::changeMyName
+#    methods: POST
