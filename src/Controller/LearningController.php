@@ -17,4 +17,18 @@ class LearningController extends AbstractController
             'name' => 'Nikita',
         ]);
     }
+
+    public function showMyName(): Response
+    {
+        return $this->render('learning/showMyName.html.twig', [
+            'name' => 'UNKNOWN',
+        ]);
+    }
+
+    public function changeMyName(): Response
+    {
+        return $this->render('learning/changeMyName.html.twig', [
+            'name' => $_POST['new_name'],
+        ]);
+    }
 }
