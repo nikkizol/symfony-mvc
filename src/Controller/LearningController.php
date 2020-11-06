@@ -13,8 +13,8 @@ class LearningController extends AbstractController
      */
     public function aboutMe(): Response
     {
-        return $this->render('learning/index.html.twig', [
-            'controller_name' => 'LearningController',
+        return $this->render('learning/aboutMe.html.twig', [
+            'name' => 'Nikita',
         ]);
     }
 }
