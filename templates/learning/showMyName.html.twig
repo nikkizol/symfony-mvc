@@ -5,9 +5,6 @@
 {% block body %}
     <h1>Hello {{ name }}</h1>
     <a href="{{ path('aboutMe') }}">About me</a>
-    <form action="{{ path('changeMyName') }}" method="POST">
-        <label for="new_name">New Name: </label>
-        <input type="text" name="new_name" id="new_name">
-        <input type="submit" value="Set new name">
-    </form>
+        {{ form(form) }}
+
 {% endblock %}
